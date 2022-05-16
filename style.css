@@ -1,0 +1,420 @@
+*{ position: relative;
+    /*    border: solid 0.1px; */
+    vertical-align: middle;
+    
+    }
+    
+    html,body {width:980px; height:1350px; margin:0px; padding:0px;
+    overflow-x: hidden }
+    
+    .resume{ width:862px; height: 1218px; margin-left: auto; margin-right: auto; margin-top: 60px; box-shadow:10px 15px 15px -10px  rgba(0,0,0,0.20)
+      
+      }
+    
+    .left, .right{display: inline-block; box-sizing: border-box }
+    
+    .left{width:306px; height:1218px}
+    
+    .lefttop{width:306px; height:327px; background-image:url(' https://media-exp1.licdn.com/dms/image/C5603AQFTLgxzS1A8zA/profile-displayphoto-shrink_200_200/0/1645372060865?e=1658361600&v=beta&t=hFkf9Qqk3rEaHiSZGasVPTu4RsbToV3WSYCGFnLjB9g');
+    background-position: -20px ;
+    background-size: cover
+    }
+    .leftbottom {width:306px; height:891px; background-color: #6495aa;
+    font-family: HelveticaNeue-Condensed;
+    color: #fff;
+    text-align: center}
+    
+    .leftbottom h3{
+    letter-spacing: 3px;
+    font-size:30px;
+    margin-bottom: 5px;
+    margin-top:0px;
+    padding-top:20px
+    }
+    
+    .leftbottom h4{ letter-spacing: 7px;
+    font-weight: 50}
+    
+    .personal{
+    border-bottom: solid 2px;
+    padding-bottom:12px ;  
+    width:240px;
+    top:110px;
+    position: absolute;
+    left:38px; text-align: left
+    }
+    .contact { 
+    border-bottom: solid 2px;
+    padding-bottom:12px ;  
+    width:240px; top:300px; 
+    position: absolute;
+    left:38px;
+    text-align: left
+    } 
+    .peritem {
+    font-weight: 100;
+    padding-bottom:5px ;  
+    width:240px; top:160px; 
+    position: absolute;
+    left:38px;
+    text-align: left}
+    
+    .peritem p {border-bottom: solid 1px;
+    padding-bottom: 2px ;
+    letter-spacing: 1px}
+    
+    .conitem{
+    font-weight: 100;
+    padding-bottom:5px ;  
+    width:240px; top:350px; 
+    position: absolute;
+    left:38px;
+    text-align: left  
+    }
+    .conitem p {border-bottom: solid 1px;
+    padding-bottom: 2px ;
+    letter-spacing: 0px;
+    }
+    
+    .ed {
+    border-bottom: solid 2px;
+    padding-bottom:12px ;  
+    width:240px; top:515px; 
+    position: absolute;
+    left:38px;
+    text-align: left}
+    
+    .institute{
+    font-weight: 100;
+    width:240px; top:575px; 
+    position: absolute;
+    left:38px;
+    text-align: left;
+    font-size: 12px;
+    letter-spacing: 1px;
+    /* border-bottom: solid 1px; */
+    }
+    .institute p{line-height:20px;
+    padding-bottom: 0px; margin-bottom: 3px}
+    
+    .leftbottom span { font-weight:60;letter-spacing: 3px}
+    
+    .leftbottom,.lefttop{ box-sizing: border-box}
+    
+    .icons { width:240px;height:60px;position: absolute;left:27px;top:800px }
+    
+    .fb{ width:50px; height: 50px; position: absolute; left:10px; top:5px; line-height: 50px; background-image: url(https://static.wixstatic.com/media/95924b_fad19adafcb047e98b534b2ce396808a~mv2.png);background-size: cover}
+    
+    .behance{ width:50px; height: 50px; position: absolute; left:95px; top:5px; line-height: 50px;background-image: url(https://static.wixstatic.com/media/95924b_f3b5d4603227407fbf237227d0201031~mv2.png); background-size: cover}
+    
+    .medium{ width:50px; height: 50px; position: absolute; left:180px; top:5px; line-height: 50px;background-image: url(https://static.wixstatic.com/media/95924b_01ab2c5f473d4f7d98cd651e2220ce44~mv2.png); background-size: cover}
+    
+    .right{
+      width:556px; 
+      height:1218px;
+      background-color: #fffffc}
+    
+    .right h4{ color:#6495aa;
+    width:240px;
+    left:28px;
+    text-align: left;
+    margin-bottom: -1px;
+    letter-spacing: 7px
+    }
+    .profile p{ text-align:justify ;text-justify: distribute;
+     width: 495px;
+     left:28px;
+     letter-spacing: 0.2px;
+     color:rgba(0,0,0,0.7)
+    }
+    .ability {width: 495px; box-sizing: border-box; 
+     left:28px;
+     margin-top:2px}
+    
+    .circle1, .circle2, .circle3{ display: inline-block;width:120px; height:120px;
+     margin-left: 33.15px;
+     border-radius:100%; background-color:#6495aa;
+    overflow: hidden;}
+    
+    .tri1{left: 46px;width:0px; height:0px; border-top:60px solid transparent; border-bottom:60px solid transparent; border-right:90px solid #dbdbd9;
+    transform-origin:0px 60px;
+    transform: rotate(-125deg); margin-right: auto; margin-left:auto }
+    
+    .tri2{left: 70px; bottom:28px; width:0px; height:0px; border-top:90px solid transparent; border-bottom:90px solid transparent; border-right:90px solid #dbdbd9;
+    transform-origin:-12px 95px;
+    transform: rotate(225deg); margin-right: auto; margin-left:auto }
+    
+    .tri3{left: 46px; bottom: 120px; width:0px; height:0px; border-top:180px solid transparent; border-bottom:180px solid transparent; border-right:90px solid #dbdbd9;
+    transform-origin:0px 180px;
+    transform: rotate(205deg); margin-right: auto; margin-left:auto}
+    
+    .littlecircle {width: 100px; height:100px; margin-left: auto; margin-right: auto; top: -110px; border-radius:100%; background-color:#fffffc}
+    
+    .Design { width:100px; height:100px; box-sizing:border-box; position: absolute;
+    text-align: center; font-size:15px; line-height:25px; padding-top:22.5px; color:#6495aa}
+    
+    .littlecircle2 {width: 100px; height:100px; margin-left: auto; margin-right: auto; top: -170px; border-radius:100%; background-color:#fffffc}
+    
+    .markting { width:100px; height:100px; box-sizing:border-box; position: absolute;
+    text-align: center; font-size:15px; line-height:95px; color:#6495aa}
+    
+    .littlecircle3 {width: 100px; height:100px; right: 10px; top: 10px; border-radius:100%; background-color:#fffffc; position: absolute}
+    
+    .Front-end { width:100px; height:100px; box-sizing:border-box; position: absolute;
+    text-align: center; font-size:15px; line-height:25px; padding-top:22.5px; color:#6495aa}
+    
+    .experience{ height:580px; 
+      box-sizing: border-box}
+    .experience h4{ 
+    color:#6495aa;
+    width:300px;
+    left:28px;
+    text-align: left;
+    margin-bottom: -1px;
+    letter-spacing: 7px
+    }
+    .tag1{ background-color:#6495aa; 
+      width:100px;
+      height:34px;
+      left:28px;
+      top:64px; 
+      position: absolute;
+      font-weight:80;
+      text-align:left;
+      font-size:18px ;
+      line-height:34px;
+      color:#fff;
+      letter-spacing:4px}
+    
+    .tagtri1{ width:0px;
+    height:1px;
+    border-top:16.5px solid transparent;
+    border-bottom:16.5px solid transparent;
+    border-left:solid 20px #6495aa;
+    position: absolute;
+    left:100px;
+    top:0px}
+    
+    .tag2{ background-color:#6495aa; 
+      width:100px;
+      height:34px;
+      left:28px;
+      top:215px; 
+      position: absolute;
+      text-align:left;
+      font-size:18px ;
+      font-weight:80;
+      line-height:34px;
+      color:#fff;
+      letter-spacing:4px}
+    
+    .tagtri2{ width:0px;
+    height:1px;
+    border-top:16.5px solid transparent;
+    border-bottom:16.5px solid transparent;
+    border-left:solid 20px #6495aa;
+    position: absolute;
+    left:100px;
+    top:0px}
+    
+    .tag3{ background-color:#6495aa; 
+      width:100px;
+      height:34px;
+      left:28px;
+      top:319px; 
+      position: absolute;
+      text-align:left;
+      font-size:18px ;
+      font-weight:80;
+      line-height:34px;
+      color:#fff;
+      letter-spacing:4px}
+    
+    .tagtri3{ width:0px;
+    height:1px;
+    border-top:16.5px solid transparent;
+    border-bottom:16.5px solid transparent;
+    border-left:solid 20px #6495aa;
+    position: absolute;
+    left:100px;
+    top:0px}
+    
+    .tag4{ background-color:#6495aa; 
+      width:100px;
+      height:34px;
+      left:28px;
+      top:470px; 
+      position: absolute;
+      text-align:left;
+      font-size:18px ;
+      font-weight:80;
+      line-height:34px;
+      color:#fff;
+      letter-spacing:4px}
+    
+    .tagtri4{ width:0px;
+    height:1px;
+    border-top:16.5px solid transparent;
+    border-bottom:16.5px solid transparent;
+    border-left:solid 20px #6495aa;
+    position: absolute;
+    left:100px;
+    top:0px}
+    
+    .verline{ width:1px; height:490px; background-color:#375460;
+    position: absolute;
+    left:165px;
+    top:82px}
+    
+    .spot{ width:16px; height:16px; right:7px; border-radius:100%; background-color:#375460; top:-10px }
+    
+    .spot2{ width:16px; height:16px; right:7px; border-radius:100%; background-color:#375460; top:126px }
+    
+    .spot3{ width:16px; height:16px; right:7px; border-radius:100%; background-color:#375460; top:215px }
+    
+    .spot4{ width:16px; height:16px; right:7px; border-radius:100%; background-color:#375460; top:350px }
+    
+    .exitem{width:350px; height:500px;
+    left:180px;
+    top:70px;
+    position: absolute;
+    box-sizing: border-box
+    }
+    .exitem h4{ font-size:13px; width:350px; left:0px; letter-spacing:3px;margin-top:0px
+    }
+    .exitem p{margin-top:0px;margin-bottom:5px;
+    color:rgba(0,0,0,0.5);
+    }
+    
+    .software, .language{ display: inline-block; box-sizing:border-box}
+    
+    .software{ width:277px; height:255px;
+    margin-top:5px}
+    
+    .software h4{ margin-top:7px; margin-bottom:0px}
+    
+    .psbar{height:50px; padding-top:0px;
+    margin-left:26px;
+    font-size:6px;
+    letter-spacing:2px;
+    color: rgba(0,0,0,0.55)}
+    
+    .barchart1{ margin-top:3px; height:20px; width:240px; background-color:#dbdbd9}
+    
+    .value1{ height:20px; width:100px; margin-right:auto; background-color:#6495aa }
+    
+    .aibar{height:50px; padding-top:0px;
+    margin-left:26px;
+    font-size:6px;
+    letter-spacing:2px;
+    color: rgba(0,0,0,0.55)}
+    
+    .barchart2{ margin-top:3px; height:20px; width:240px; background-color:#dbdbd9}
+    
+    .value2{ height:20px; width:85px; margin-right:auto; background-color:#6495aa }
+    
+    .idbar{ height:50px; padding-top:0px;
+    margin-left:26px;
+    font-size:6px;
+    letter-spacing:2px;
+    color: rgba(0,0,0,0.55)}
+    
+    .barchart3{ margin-top:3px; height:20px; width:240px; background-color:#dbdbd9}
+    
+    .value3{ height:20px; width:120px; margin-right:auto; background-color:#6495aa }
+    
+    .lrbar{ height:50px; padding-top:0px;
+    margin-left:26px;
+    font-size:6px;
+    letter-spacing:2px;
+    color: rgba(0,0,0,0.55)}
+    
+    .barchart4{ margin-top:3px; height:20px; width:240px; background-color:#dbdbd9}
+    
+    .value4{ height:20px; width:200px; margin-right:auto; background-color:#6495aa }
+    
+    .language {width:277px; height:255px;
+    margin-top:5px;
+    }
+    
+    .language h4{ margin-top:7px; margin-bottom:0px}
+    
+    .language p{font-size:13px;    
+       color:rgba(0,0,0,0.55);
+       margin-top:0px;
+       border-bottom: solid 0.5px;
+       margin-left:18px;
+       margin-bottom:0px;
+       margin-right:26px;
+       letter-spacing: 2px;
+    }
+    
+    .mabar{ width:95px;
+      height:130px;
+      margin-top:0px;
+      background-color: rgba(100,149,179,0.75);
+      margin-left:156px
+    }
+    
+    .english {width:259px;
+      position: absolute;
+      top:50px;
+      margin-left:18px;
+    }
+    
+    .english p{margin-left:0px;
+      border-bottom: solid 0.5px;
+      width:173px
+    }
+    
+    .enbar{ width:95px;
+      height:80px;
+      margin-top:0px;
+      background-color: rgba(55,84,96,0.75);
+      margin-left:78px
+    }
+    
+    .jpn {width:259px;
+      position: absolute;
+      top:99px;
+      margin-left:18px;
+    }
+    
+    .jpn p{margin-left:0px;
+      border-bottom: solid 0.5px;
+      width:115px
+    }
+    
+    .jpbar{ width:95px;
+      height:31px;
+      margin-top:0px;
+      background-color: rgba(164,185,193,0.45);
+      margin-left:20px
+    }
+    
+    .lancube{margin-top:26px;
+      font-size:2px;
+      color:rgba(0,0,0,0.55);
+      width:259px;
+      left:18px
+    }
+    
+    .cube1 {width:15px; height:15px;
+      display: inline-block;
+    background-color:rgba(100,149,179,0.75);
+    top:-2px}
+    
+    .cube2 {width:15px; height:15px;
+      display: inline-block;
+      background-color:rgba(55,84,96,0.75);
+      left:20px;top:-2px
+    }
+    
+    .cube3 {width:15px; height:15px;
+      display: inline-block;
+      background-color:rgba(164,185,193,0.45);
+      left:68px;top:-2px
+    }
+    
+    
+    
